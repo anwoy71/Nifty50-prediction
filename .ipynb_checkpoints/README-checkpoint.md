@@ -1,1 +1,0 @@
-# QS-nifty50-prediction
