@@ -19,21 +19,26 @@ The project prioritizes:
 ```text
 QS-nifty50-prediction/
 │
-├── 01_data_cleaning_alignment.ipynb
-├── 02_feature_dataset.ipynb
-├── 03_modeling_walkforward.ipynb
+├── notebooks/
+│   ├── 01_data_clean_align.ipynb
+│   ├── 02_feature_dataset.ipynb
+│   └── 03_modeling_walkforward.ipynb
 │
-├── final_model_dataset.csv
-├── master_dataframe.csv
+├── data/
+│   ├── raw_data/
+│   │   ├── nifty50.csv
+│   │   ├── banknifty.csv
+│   │   ├── indiavix.csv
+│   │   └── starter_features.csv
+│   │
+│   └── processed_data/
+│       ├── master_dataframe.csv
+│       └── final_model_dataset.csv
 │
 ├── README.md
 ├── LICENSE
-│
-└── data/
-    ├── nifty50.csv
-    ├── banknifty.csv
-    ├── indiavix.csv
-    └── starter_features.csv
+├── requirements.txt
+└── ProjectReportFinal_Anwoy.pdf
 ```
 
 ---
