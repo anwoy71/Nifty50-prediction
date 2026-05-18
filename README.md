@@ -1,4 +1,4 @@
-# QS NIFTY50 Prediction
+#  NIFTY50 Prediction
 
 Financial ML project for predicting next-day NIFTY50 direction using engineered time-series features and walk-forward validation.
 
@@ -17,7 +17,7 @@ The project prioritizes:
 ## Repository Structure
 
 ```text
-QS-nifty50-prediction/
+-Nifty50-prediction/
 │
 ├── notebooks/
 │   ├── 01_data_clean_align.ipynb
